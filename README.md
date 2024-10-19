@@ -16,7 +16,8 @@ Tasks are sorted using a simple approach where we define an order for the priori
 High: 1
 Medium: 2
 Low: 3
-** When displaying tasks, we sort them based on these numeric values. This ensures that high-priority tasks are always listed first, followed by medium and low-priority tasks.**
+
+**When displaying tasks, we sort them based on these numeric values. This ensures that high-priority tasks are always listed first, followed by medium and low-priority tasks.**
 
  # Setup Instructions
  
