@@ -42,3 +42,9 @@ npm run dev
 Next.js for server-side rendering and routing
 React for building the user interface
 CSS for styling
+
+# Task Management App
+
+## Live Demo
+
+Check out the live version of the app [here](https://task-management-app-psi-roan.vercel.app).
