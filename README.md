@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management App
 
-## Getting Started
+**Description**
+The Task Management App allows users to create, edit, delete, and manage their tasks efficiently. You can assign a priority level to each task (high, medium, low) and mark tasks as completed or pending. The app features a user-friendly interface with responsive design, making it easy to use on any device.
 
-First, run the development server:
+**Features**
+*Add New Tasks*: Create tasks with a title, description, and priority.
+*Edit Tasks*: Update existing tasks, except for those marked as completed.
+*Delete Tasks*: Remove tasks from the list.
+*Toggle Completion*: Mark tasks as completed or pending.
+*Sort Tasks*: Tasks are sorted dynamically by priority, ensuring high-priority tasks appear at the top.
 
-```bash
+**Sorting Tasks by Priority**
+Tasks are sorted using a simple approach where we define an order for the priority levels. We assign a numeric value to each priority:
+
+High: 1
+Medium: 2
+Low: 3
+# When displaying tasks, we sort them based on these numeric values. This ensures that high-priority tasks are always listed first, followed by medium and low-priority tasks.
+
+ # Setup Instructions
+To set up and run the Task Management App on your local machine, follow these steps:
+
+**Clone the Repository:**
+
+`git clone <repository-url>
+cd task-management-app `
+
+Install Dependencies: Make sure you have Node.js installed. Then, run:
+
+`npm install`
+
+Run the Development Server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Open in Browser: Visit http://localhost:3000 in your web browser to view the app.**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Technologies Used
+Next.js for server-side rendering and routing
+React for building the user interface
+CSS for styling
